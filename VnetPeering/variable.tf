@@ -8,3 +8,9 @@ variable "location" {
     description = "Azure location of resource group"
     default = "eastus"
 }
+
+variable "hubtospoke" {
+    type = map
+    description = "A list of keys and values"
+    
+}
