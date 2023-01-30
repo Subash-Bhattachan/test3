@@ -1,6 +1,7 @@
 variable "rgname" {
     type = string
     description = "Name of resource group"
+    default = "subash-rg"
 }
 
 variable "location" {
