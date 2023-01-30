@@ -1,15 +1,15 @@
 hubtospoke = {
-  peering = {
-	  peering1_name = "sns-vnet1-eastus1-to-pfe-vnet-ido-dev-lcs-eastus-001",
-	  rgname_vnet1 = "sns-networking-rg1-eastus1",
-	  vnet1_name    = "sns-vnet1-eastus1",
-	  remote_vnet2_id = "/subscriptions/8811f127-9372-42c2-8faf-2f02664e32ab/resourceGroups/pfe-rg-ido-dev-lcs-nw-eastus-001/providers/Microsoft.Network/virtualNetworks/pfe-vnet-ido-dev-lcs-eastus-001",
+#   peering = {
+# 	  peering1_name = "Vnet-Subash-to-Vnet1-Subash",
+# 	  rgname_vnet1 = "subash-rg",
+# 	  vnet1_name    = "Vnet-Subash",
+# 	  remote_vnet2_id = "/subscriptions/3e7f8f26-7ad0-456e-a365-05294930c3e5/resourceGroups/subash1-rg/providers/Microsoft.Network/virtualNetworks/Vnet1-Subash",
 	  
-	  peering2_name = "pfe-vnet-ido-dev-lcs-eastus-001-to-sns-vnet1-eastus1",
-	  rgname_vnet2= "pfe-rg-ido-dev-lcs-nw-eastus-001",
-	  vnet2_name    = "pfe-vnet-ido-dev-lcs-eastus-001",
-	  remote_vnet1_id = "/subscriptions/d3b3c8aa-6bfb-4eee-989f-aec8460b0434/resourceGroups/sns-networking-rg1-eastus1/providers/Microsoft.Network/virtualNetworks/sns-vnet1-eastus1"
-  }
+# 	  peering2_name = "Vnet1-Subash-to-Vnet-Subash",
+# 	  rgname_vnet2= "subash1-rg",
+# 	  vnet2_name    = "Vnet1-Subash",
+# 	  remote_vnet1_id = "/subscriptions/3e7f8f26-7ad0-456e-a365-05294930c3e5/resourceGroups/subash-rg/providers/Microsoft.Network/virtualNetworks/Vnet-Subash"
+#   }
 	
 }
 
