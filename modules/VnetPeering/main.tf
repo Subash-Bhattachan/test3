@@ -1,6 +1,6 @@
 resource "azurerm_virtual_network_peering" "hubtospoke" {
   name                      = var.peering1_name
-  subscription_id           = "d3b3c8aa-6bfb-4eee-989f-aec8460b0434"
+  subscription_id           = "3e7f8f26-7ad0-456e-a365-05294930c3e5"
   resource_group_name       = var.rgname_vnet1
   virtual_network_name      = var.vnet1_name
   remote_virtual_network_id = var.remote_vnet2_id
