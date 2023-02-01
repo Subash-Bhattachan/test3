@@ -2,7 +2,7 @@
 
 module "peering" {
   for_each   =   var.hubtospoke
-  source    = "../modules/vnetpeering"
+  source    = "../modules/VnetPeering"
   
   peering1_name = each.value.peering1_name
   rgname_vnet1 = each.value.rgname_vnet1
